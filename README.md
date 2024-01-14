@@ -1,4 +1,3 @@
-## React Native - Expo Router
 # React Native Expo Router App
 
 This project is a simple React Native app using Expo with a basic router. It includes a single page with a button that serves as a gateway to a website.
