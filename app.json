@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "ucforpubg_expo_app_dev",
+    "slug": "ucforpubg_expo_app_dev"
+  }
+}
