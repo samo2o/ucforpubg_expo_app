@@ -1,13 +1,19 @@
-# Expo Router Example
+## React Native - Expo Router
+# React Native Expo Router App
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+This project is a simple React Native app using Expo with a basic router. It includes a single page with a button that serves as a gateway to a website.
 
-## 🚀 How to use
+## Prerequisites
 
-```sh
-npx create-expo-app -e with-router
-```
+Before you start, ensure that you have Node.js and Expo CLI installed on your machine.
 
-## 📝 Notes
+- Node.js: [Download Node.js](https://nodejs.org/)
+- Expo CLI: Install globally using `npm install -g expo-cli`
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+## Getting Started
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/react-native-expo-router-app.git
+   cd react-native-expo-router-app
