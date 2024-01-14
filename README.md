@@ -14,5 +14,5 @@ Before you start, ensure that you have Node.js and Expo CLI installed on your ma
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/react-native-expo-router-app.git
-   cd react-native-expo-router-app
+   git clone https://github.com/samo2o/ucforpubg_expo_app.git
+   cd ucforpubg_expo_app
