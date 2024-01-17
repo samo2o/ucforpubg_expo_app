@@ -1,6 +1,6 @@
 import { Stack, useNavigation } from "expo-router";
 import { useEffect } from "react";
-import { Text, View, Image, ScrollView, TouchableOpacity } from "react-native";
+import { Text, View, Image, ScrollView, TouchableOpacity, Linking } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { LinearGradient } from 'expo-linear-gradient';
 
@@ -78,7 +78,7 @@ export default function Home() {
                 </View>
 
                 <View className="px-4 pb-4 pt-8 flex justify-center items-center">
-                    <TouchableOpacity className="bg-primary w-64 py-2 px-4 rounded-3xl items-center">
+                    <TouchableOpacity onPress={() => Linking.openURL("https://ucforpubg.com/login")} className="bg-primary w-64 py-2 px-4 rounded-3xl items-center">
                         <Text className="text-lg text-white">ابدا الان</Text>
                     </TouchableOpacity>
                     <Policy />

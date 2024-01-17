@@ -1,13 +1,36 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "ucforpubg_expo_app_dev",
-    "slug": "ucforpubg_expo_app_dev"
+      "name": "ucforpubg",
+      "slug": "ucforpubg",
+      "scheme": "ucforpbg_acme",
+      "version": "1.0.1",
+      "icon": "./assets/icon.png",
+      "orientation": "portrait",
+      "web": {
+          "bundler": "metro"
+      },
+      "android": {
+          "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+          },
+          "package": "com.ucforpubg"
+      },
+      "splash": {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+      },
+      "plugins": [
+          "expo-router"
+      ],
+      "extra": {
+          "router": {
+          "origin": false
+          },
+          "eas": {
+          "projectId": "be510de0-a795-46ef-ab8d-458dcd29051a"
+          }
+      }
   }
 }
