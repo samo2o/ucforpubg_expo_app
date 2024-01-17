@@ -3,7 +3,7 @@
 This is a simple React Native app created with Expo, featuring a single page with a gateway button that leads to the main website.
 
 ## Getting Started
-- Prerequisites
+Prerequisites
 Make sure you have **Node.js** and npm installed. You can download them from https://nodejs.org/.
 
 ### Installation
